@@ -122,7 +122,6 @@ function updateResultText(result) {
 }
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
-    const result = playRound(button.id, computerPlay());
     updateScores();
     updateResultText(result);
   });
