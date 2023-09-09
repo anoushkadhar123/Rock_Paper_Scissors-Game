@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
 
 body {
   background-color: #04145ef1;
-  font-family: 'Reggae One', cursive;
+  font-family: "Reggae One", cursive;
   letter-spacing: 2px;
   margin: 0;
   padding: 0;
@@ -12,9 +12,9 @@ body {
   background-size: cover;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 30px;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 80px;
   color: rgb(241, 241, 42);
 }
 p {
@@ -54,4 +54,77 @@ button:hover {
 }
 #computer-score {
   color: rgb(231, 10, 165);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+.game {
+  flex: 1;
+}
+.leaderboard {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.39);
+  background-image: linear-gradient(to bottom, #000, #330040);
+  align-items: center;
+  justify-content: center;
+}
+.leaderboard h2 {
+  color: #c900ff;
+  font-size: 25px;
+  margin: 20px 0 10px 60px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-style: italic;
+  align-items: center;
+  justify-content: center;
+}
+.leaderboard p {
+  color: rgb(241, 195, 42);
+  font-size: 1rem;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.leaderboard div {
+  color: antiquewhite;
+  font-size: 17px;
+  align-items: center;
+  justify-content: center;
+}
+.statistics {
+  position: relative;
+  background-color: wheat;
+  padding: 22px;
+  background-image: linear-gradient(to bottom, #000, #330040);
+  align-items: center;
+  justify-content: center;
+}
+.statistics h2 {
+  color: #0059ff;
+  font-size: 25px;
+  margin-bottom: 13px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-style: oblique;
+  align-items: center;
+  justify-content: center;
+}
+.statistics p {
+  color: rgb(241, 195, 42);
+  font-size: 1rem;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.statistics div {
+  color: orange;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
 }
