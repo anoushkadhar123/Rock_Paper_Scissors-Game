@@ -12,17 +12,29 @@
 
 <body>
     <h1>Let's Play Rock Paper Scissors!</h1>
-    <p>Choose Your Move</p>
-    <div class="buttons">
-        <button id="rock">&#x1F44A;</button>
-        <button id="paper">&#x1f590;</button>
-        <button id="scissors">&#x270c;</button>
+    <div class="container">
+        <div class="game">
+            <p>Choose Your Move:</p>
+            <div class="buttons">
+                <button id="rock">&#x1F44A;</button>
+                <button id="paper">&#x1f590;</button>
+                <button id="scissors">&#x270c;</button>
+            </div>
+            <p id="result"></p>
+        </div>
+        <div class="leaderboard">
+            <h2>Leader board</h2>
+            <div id="leaderboard"></div>
+            <div class="statistics">
+                <h2>Game Statistics</h2>
+                <div id="statistics"></div>
+                <p id="time"></p>
+                <p>You Scored: <span id="user-score">0</span></p>
+                <p>Computer Scored: <span id="computer-score">0</span></p>
+            </div>
+        </div>
+
     </div>
-    <p id="result"></p>
-    <p id="scores" style="color: orange;">
-        You Scored: <span id="user-score">0</span>
-        Computer Scored: <span id="computer-score">0</span>
-    </p>
     <script src="index.js"></script>
 </body>
 
