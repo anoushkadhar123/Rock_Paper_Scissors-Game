@@ -5,4 +5,4 @@ The Rock, Paper and Scissors Game is a two-person intransitive hand game in whic
 
 The above image shows what will the website look like if executed.
 
-I Hope everyone likes it! :) 
+I Hope everyone likes it! :)
