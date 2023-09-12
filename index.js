@@ -42,7 +42,7 @@ function playRound(playerSelection, computerSelection) {
     }
     else if (playerSelection === "rock" && computerSelection === "scissors") {
         time = getCurrentTime();
-        winner = "User";
+        winner = "Player";
         playerScore++;
         playerScoreEl.textContent = playerScore;
         winnericon = "&#x1F44A;";
@@ -51,7 +51,7 @@ function playRound(playerSelection, computerSelection) {
     }
     else if (playerSelection === "paper" && computerSelection === "rock") {
         time = getCurrentTime();
-        winner = "User";
+        winner = "Player";
         playerScore++;
         playerScoreEl.textContent = playerScore;
         winnericon = "&#x1f590;";
@@ -60,7 +60,7 @@ function playRound(playerSelection, computerSelection) {
     }
     else if (playerSelection === "scissors" && computerSelection === "paper") {
         time = getCurrentTime();
-        winner = "User";
+        winner = "Player";
         playerScore++;
         playerScoreEl.textContent = playerScore;
         winnericon = "&#x270c;";
