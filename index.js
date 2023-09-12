@@ -18,7 +18,7 @@ function updateLeaderboard() {
         victory.textContent = "It's a Tie";
     }
     else if(playerScore > computerScore){
-        victory.textContent = "USER  (🏆)";
+        victory.textContent = "Player  (🏆)";
     }
     else{
         victory.textContent = "Computer (🏆)" ;
